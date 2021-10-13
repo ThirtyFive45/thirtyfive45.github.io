@@ -14,7 +14,7 @@ export class JsNes extends Component<IProps, IState> {
 
     componentDidMount() {
         // nes_load_url("nes-canvas", "/assets/SuperMarBros.nes");
-        nes_load_url("nes-canvas", "/assets/InterglacticTransmissing.nes");
+        nes_load_url("nes-canvas", "/assets/moonsofio.nes");
     }
 
     render() {
