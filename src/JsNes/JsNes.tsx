@@ -20,9 +20,8 @@ export class JsNes extends Component<IProps, IState> {
     render() {
         return (
         <Fragment>
-            <canvas id="nes-canvas" width="256" height="240" style="width: 100%" ref={this.refMainCanvas}/>
+            <canvas id="nes-canvas" width="256" height="240" style="width: 50%" ref={this.refMainCanvas}/>
         </Fragment>)
     }
-
 }
 

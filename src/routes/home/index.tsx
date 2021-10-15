@@ -27,7 +27,14 @@ class Home extends Component<IProps, IState> {
      */
     renderReadyButton() {
         return (
-            <button onClick={ this.onReadyButtonClicked.bind(this) } >Ready, Player One!</button>
+            <div className={style.homeContainer}>
+                <button
+                    class={style.btnReadyPlayerOne}
+                    onClick={ this.onReadyButtonClicked.bind(this) }>
+                        Ready, Player One! Press Start!
+                </button>
+            </div>
+
         )
     }
 
@@ -45,7 +52,7 @@ class Home extends Component<IProps, IState> {
 
     render() {
         return (
-            <div class={style.home}>
+            <div className={style.home}>
                 { this.state.play ? this.renderNesCanvas() : this.renderReadyButton() }
             </div>
         );

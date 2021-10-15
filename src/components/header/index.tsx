@@ -5,17 +5,17 @@ import style from './style.css';
 const Header: FunctionalComponent = () => {
     return (
         <header class={style.header}>
-            <h1>This is NES!</h1>
+            <h1>ThirtyFive45 Game Studio HQ</h1>
             <nav>
                 <Link activeClassName={style.active} href="/">
                     Home
                 </Link>
-                <Link activeClassName={style.active} href="/profile">
+                {/* <Link activeClassName={style.active} href="/profile">
                     NOSE
                 </Link>
                 <Link activeClassName={style.active} href="/profile/john">
                     NAS
-                </Link>
+                </Link> */}
             </nav>
         </header>
     );
